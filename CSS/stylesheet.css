@@ -22,7 +22,7 @@ color: white;
 font-weight: bold;
 font-family: Verdana, Arial, Geneva, arial black;
 font-size:15px;
-background-image: url(./Images/wave.png);
+background-image: url(../Images/wave.png);
 overflow: scroll;
 }
 
