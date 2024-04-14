@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(9, 102, 37);
+    font-weight: 900;
+    
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+h2{ 
+    font-size: 35px;
+}
+
+h1, h2, h3, h4 {
+ color:rgb(245, 160, 32);
+ font-weight: 900;
+ text-decoration: blue underline;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+ color: rgb(247, 161, 48);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li, th {
+    color: rgb(184, 105, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    color: rgb(247, 161, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+#l_link{
+    text-decoration: underline;
+}
+
+.ShLink{ 
+    text-decoration: underline;
+}
+
+li a{
+    color:rgb(92, 128, 238);
+}
+
+button:hover {
+    background-color: rgb(50, 65, 63);
+    color: turquoise;
+}
+
+button:active {
+    background-color: black;
+    color: cyan;
+}
+
+p::first-letter {
+    font-size: 165%;
+}
+

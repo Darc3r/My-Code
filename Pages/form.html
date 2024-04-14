@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheet2B.css">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1 class="not_aligned">Form</h1>
+
+    <form action="">
+        <p class="not_aligned">
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="Username" name="username">
+        </p>
+        <p class="not_aligned">
+            <label for="password">Enter a password</label>
+            <input id="password" type="password" placeholder="Password" name="password">
+
+        </p>
+        <p class="not_aligned">
+            <label for="color">Enter a Color</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p class="not_aligned">
+            <label for="num">Enter your age</label>
+            <input id="num" type="number" placeholder="enter a number" name="num" min="7" max="125">
+            <button>Submit</button>
+        </p>
+        <p class="not_aligned">
+            <label for="birth">Enter your Birthay</label>
+            <input id="birth" type="date" name="birth">
+        </p>
+    </form>
+
+    <h2 class="not_aligned">More Inputs!</h2>
+    <h3 class="not_aligned">Will you agree to the terms of service?</h3>
+    <form action="/TOS">
+        <label for="yes">I agree to the Terms Of Service</label>
+        <input type="radio" name="?_tos" id="yes" value="yes" checked>
+        <br>
+        <label for="no">I don't agree to the Terms Of Service</label>
+        <input type="radio" name="?_tos" id="no" value="no">
+        <br>
+        <button>Submit</button>
+
+        <button>Submit</button>
+    </form>
+    <h2 class="not_aligned">Validations</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name=" first" id="first" required>
+        <p class="not_aligned">
+            <label for="user">Enter Your Username</label>
+            <input type="text" name="user" id="user" minlength="5" maxlength="20" required>
+        </p>
+        <p class="not_aligned">
+            <label for="email">Enter Your Email</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <button>Submit</button>
+    </form>
+    <!--
+<label for="German Shepard"> German Shepard</label>
+<input type="checkbox" name="German Shepard" id="German Shepard">
+-->
+</body>
+
+</html>
